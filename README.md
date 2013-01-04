@@ -43,5 +43,6 @@ website: b.imf.cc
 *   [Sublime Text 2 API docs](http://www.sublimetext.com/docs/2/api_reference.html)
 *   [SublimeJekyll](https://github.com/mengjuesh/SublimeJekyll)
 *   [xpinyin](https://github.com/lxneng/xpinyin)
+*   [auto publish blog to github Jekyll in windows](http://b.imf.cc/blog/2013/01/01/use-jenkins-to-auto-build-jekyll-and-octopress/)
 
 Contact: fma (AT) outlook.com
