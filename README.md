@@ -1,0 +1,22 @@
+##SublimeOctopress
+
+Tools for working with Octopress in Sublime Text 2
+
+###Installation
+* Install [Package Control](http://wbond.net/sublime_packages/package_control/installation) and restart when it tells you to.
+    * Add Repository - https://github.com/mengjuesh/SublimeOctopress
+    * Install Package - SublimeOctopress
+
+###Current capabilities:
+* make a new post : supply a title and get back a new document with really conventional Jekyll filename and yaml header (based on octopress)
+    * command palette = Octopress: New Post
+    * Tools > Octopress > New Post
+
+###References
+*   [glenrobertson's PythonOpenModule](https://github.com/SublimeText/PythonOpenModule) for general organization and user prompt creation.
+*   [titoBouzout's Camaleon](https://github.com/SublimeText/Camaleon) for menu nesting.
+*   [Sublime Text 2 API docs](http://www.sublimetext.com/docs/2/api_reference.html)
+*   [SublimeJekyll](https://github.com/mengjuesh/SublimeJekyll)
+*   [xpinyin](https://github.com/lxneng/xpinyin)
+
+Meng Jue * MengJue AT outlook.com

@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Octopress: New Post",
+        "command": "make_octopress_post"
+    }
+]
