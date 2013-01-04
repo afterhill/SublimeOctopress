@@ -44,4 +44,4 @@ website: b.imf.cc
 *   [SublimeJekyll](https://github.com/mengjuesh/SublimeJekyll)
 *   [xpinyin](https://github.com/lxneng/xpinyin)
 
-Meng Jue * MengJue AT outlook.com
+Contact: MengJue (AT) outlook.com
