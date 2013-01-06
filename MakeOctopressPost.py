@@ -9,6 +9,7 @@ date: dummy_date
 comments: true
 author: Meng Jue
 website: b.imf.cc
+title: dummy_title
 ---
 '''
 
@@ -16,6 +17,11 @@ website: b.imf.cc
 def make_pinyin(title_input):
     p = pinyin.Pinyin()
     return p.get_pinyin(title_input)
+
+
+def replace_with_real_title(title, header2):
+    header3 = header2.replace('dummy_title', title)
+    return header3
 
 
 def replace_with_real_datetime():
@@ -43,11 +49,12 @@ def make_file_name(title_input):
 class MakeOctopressPostCommand(sublime_plugin.WindowCommand):
     def on_done(self, title):
         header2 = replace_with_real_datetime()
+        header3 = replace_with_real_title(title, header2)
         new_post = self.window.new_file()
         post_title = make_file_name(title)
         new_post.set_name(post_title)
         edit = new_post.begin_edit()
-        new_post.insert(edit, 0, header2)
+        new_post.insert(edit, 0, header3)
         new_post.end_edit(edit)
 
     def run(self):
